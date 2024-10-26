@@ -9,7 +9,7 @@ public class Solution14 {
         dfs(s, 0, 0);
         return ans;
     }
-
+//OKK
     public void dfs(String s, int segId, int segStart) {
         // 如果找到了 4 段 IP 地址并且遍历完了字符串，那么就是一种答案
         if (segId == SEG_COUNT) {  // 修正等号使用错误
@@ -30,7 +30,7 @@ public class Solution14 {
         if (segStart == s.length()) {
             return;
         }
-
+//OK
         // 由于不能有前导零，如果当前段起始字符为 0，那么这一段 IP 地址只能为 0，并且长度为 1
         if (s.charAt(segStart) == '0') {
             segments[segId] = 0;
