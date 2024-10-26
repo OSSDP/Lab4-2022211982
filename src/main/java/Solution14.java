@@ -30,7 +30,7 @@ public class Solution14 {
         if (segStart == s.length()) {
             return;
         }
-
+//OK
         // 由于不能有前导零，如果当前段起始字符为 0，那么这一段 IP 地址只能为 0，并且长度为 1
         if (s.charAt(segStart) == '0') {
             segments[segId] = 0;
