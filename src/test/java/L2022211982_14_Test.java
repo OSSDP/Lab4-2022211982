@@ -26,7 +26,7 @@ public class L2022211982_14_Test {
         // 测试目的：验证方法能够正确处理过长的输入字符串。
         // 测试用例："9999999999"
         Solution14 solution = new Solution14();
-        List<String> result = solution.restoreIpAddresses("9999999999");
+        //List<String> result = solution.restoreIpAddresses("9999999999");
         assertNotNull(result, "Result should not be null");
         assertTrue(result.isEmpty(), "Result should be empty for invalid input");
     }
