@@ -11,6 +11,7 @@ public class Solution14 {
     }
 //OKK
     //yes
+    //1
     public void dfs(String s, int segId, int segStart) {
         // 如果找到了 4 段 IP 地址并且遍历完了字符串，那么就是一种答案
         if (segId == SEG_COUNT) {  // 修正等号使用错误
